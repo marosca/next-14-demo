@@ -1,4 +1,5 @@
 import { CartCounter } from '@/shopping-cart';
+import { useAppDispatch } from '@/store';
 
 export const metadata = {
   title: 'Shopping Cart',

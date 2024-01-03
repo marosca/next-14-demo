@@ -12,6 +12,7 @@ export const PokemonGrid = ({ pokemons }: Props) => {
       {pokemons.map((pokemon) => (
         <PokemonCard key={pokemon.id} pokemon={pokemon} />
       ))}
+      {pokemons.length === 0 && <p>No hay pokemons</p>}
     </div>
   );
 };
